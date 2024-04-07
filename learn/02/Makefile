@@ -10,11 +10,11 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = megaphone
+NAME = cleaning_service
 CC = c++
 FLAGS = -Wall -Wextra -Werror -g -std=c++98
 RM = rm -f
-SRC_NAME = megaphone.cpp
+SRC_NAME = main.cpp
 
 OBJ_NAME = $(SRC_NAME:.cpp=.o)
 OBJ = $(OBJ_NAME)

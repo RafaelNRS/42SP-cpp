@@ -10,11 +10,11 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = megaphone
+NAME = favorite_number
 CC = c++
 FLAGS = -Wall -Wextra -Werror -g -std=c++98
 RM = rm -f
-SRC_NAME = megaphone.cpp
+SRC_NAME = favorite_number.cpp
 
 OBJ_NAME = $(SRC_NAME:.cpp=.o)
 OBJ = $(OBJ_NAME)

@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: ranascim <ranascim@student.42.org.br>      +#+  +:+       +#+         #
+#    By: ranascim <ranascim@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/10 00:01:12 by ranascim          #+#    #+#              #
-#    Updated: 2024/03/10 00:01:16 by ranascim         ###   ########.fr        #
+#    Updated: 2024/03/30 16:24:37 by ranascim         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,8 @@ $(NAME) : $(OBJ)
 
 clean :
 	$(RM) $(OBJ)
-fclean :
+
+fclean : clean
 	$(RM) $(NAME)
 
 re: fclean $(NAME)
