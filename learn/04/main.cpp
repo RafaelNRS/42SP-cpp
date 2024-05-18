@@ -6,8 +6,8 @@ int main()
 	// average = (double)total / count; -- old style
 
 	// bool equal_result {false};
-	// std::cout boolalpha; -- now it converts 1 and 0 to true and false
-	// std::cout noboolalpha; -- disables the previous statement
+	// std::cout << std::boolalpha; -- now it converts 1 and 0 to true and false
+	// std::cout << std::noboolalpha; -- disables the previous statement
 
 	// std::cout << fixed << setprecision(2); -- prints dollars nicely
 
